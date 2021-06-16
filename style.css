@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: ;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.line {
+    height: 60px;
+    background-color: black;
+    width: 100px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height:
+        1.3;
+}
+
+.parallax-container {
+    /* The image used */
+    background-image: url("C:\Users\Aahan\Downloads\IMG_7382");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
